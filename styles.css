@@ -8,22 +8,25 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: black;
+    background: yellow;
 }
 
-.container-item-header{
+.container-item-header, .container-item, .container-item>nav>ul{
+    display: flex;
     flex-grow: 1;
+    align-items: center;
     background: red;
 }
 
-.container-item-header:nth-child(1){
-    display: flex;
-}
 
 ul{
     list-style: none;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
 }
 
