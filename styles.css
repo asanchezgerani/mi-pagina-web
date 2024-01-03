@@ -16,6 +16,10 @@
     background: red;
 }
 
+.container-item-header:nth-child(1){
+    display: flex;
+}
+
 ul{
     list-style: none;
     padding-left: 0;
