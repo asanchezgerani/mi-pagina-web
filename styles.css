@@ -3,3 +3,18 @@
     height: 75px;
     border-radius: 50%;
 }
+
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+}
+
+.container-item-header{
+    flex-grow: 1;
+    background: red;
+}
+
+
