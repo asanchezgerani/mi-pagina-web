@@ -11,13 +11,16 @@
     background: yellow;
 }
 
-.container-item-header, .container-item, .container-item>nav>ul{
+.container-item-header, .container-item, .container-item nav, .container-item>nav>ul {
     display: flex;
-    flex-grow: 1;
-    align-items: center;
     background: red;
 }
 
+.container-item{
+    flex-grow: 1;
+    justify-content: center;
+    background: blue;
+}
 
 ul{
     list-style: none;
