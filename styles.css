@@ -45,6 +45,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: #10A5A0;
+}
+
 
 
 
