@@ -41,8 +41,8 @@ ul{
 }
 
 a{
-    font-size: 20px;
-    color: #F5F5F5;
+    font-size: 18px;
+    color: var(--color-letter);
     text-decoration: none;
 }
 
@@ -56,15 +56,25 @@ a:hover{
     flex-direction: column;
 }
 
+.container-item-section > button{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container-section{
     align-items: center;
 }
 
 .button{
     cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
     color: var(--color-letter);
     background: var(--color-header);
+    border-radius: 5px;
+    width: 50%;
 }
+
 
 
 
