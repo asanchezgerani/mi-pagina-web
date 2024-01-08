@@ -50,6 +50,15 @@ a:hover{
 }
 
 
+.container-section, .container-item-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-section{
+    align-items: center;
+}
+
 
 
 /* .container-item-header, .container-item, .container-item nav, .container-item>nav>ul {
