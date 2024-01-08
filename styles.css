@@ -1,5 +1,6 @@
 :root{
     --color-header: #171C24;
+    --color-letter:#F5F5F5;
 }
 
 
@@ -57,6 +58,12 @@ a:hover{
 
 .container-section{
     align-items: center;
+}
+
+.button{
+    cursor: pointer;
+    color: var(--color-letter);
+    background: var(--color-header);
 }
 
 
