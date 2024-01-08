@@ -1,6 +1,7 @@
 :root{
     --color-header: #171C24;
     --color-letter:#F5F5F5;
+    --color-button-hover: #424C5A;
 }
 
 h1{
@@ -87,18 +88,6 @@ a:hover{
     width: 50%;
 }
 
-
-
-
-/* .container-item-header, .container-item, .container-item nav, .container-item>nav>ul {
-    display: flex;
-    background: red;
+.button:hover{
+    background: var(--color-button-hover);
 }
-
-.container-item{
-    flex-grow: 1;
-    justify-content: center;
-    background: blue;
-}
- */
-
