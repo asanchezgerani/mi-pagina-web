@@ -22,7 +22,7 @@ h1{
     border-radius: 50%;
 }
 
-.container-header,.container-item-header,nav,ul{
+.container-flex{
     display: flex;
 }
 
