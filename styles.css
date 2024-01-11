@@ -37,6 +37,9 @@ p{
     display: flex;
 }
 
+.container-flex-direction{
+    flex-direction: column;
+}
 
 .container-header{
     background: var(--color-header);
@@ -73,11 +76,6 @@ a:hover{
     color: #10A5A0;
 }
 
-
-.container-section, .container-item-section{
-    flex-direction: column;
-}
-
 .container-item-section > button{
     margin-left: auto;
     margin-right: auto;
@@ -109,12 +107,7 @@ a:hover{
     padding: 16px;
 }
 
-.container-section-sobremi:nth-child(2),.container-section-item-sobremi{
-    flex-direction: column;
-}
-
 .container-section-sobremi:nth-child(2)>.container-section-item-sobremi{
-    flex-direction: column;
     border-radius: 5px;
     border-color: #10A5A0;
     border-style: solid;
