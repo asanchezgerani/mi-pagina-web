@@ -88,7 +88,7 @@ a:hover{
     color: var(--color-letter);
     background: var(--color-header);
     border-radius: 5px;
-    width: 50%;
+    width: 30%;
 }
 
 .button:hover{
