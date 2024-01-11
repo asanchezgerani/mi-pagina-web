@@ -38,6 +38,11 @@ p{
     border-radius: 50%;
 }
 
+.logo-redes-sociales{
+    width: 24px;
+    height: 24px;
+}
+
 .container-flex{
     display: flex;
 }
