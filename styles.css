@@ -27,7 +27,12 @@ p{
     margin-bottom: 1%;
 }
 
-#logo{
+.size-image{
+    width: 45px;
+    height: 45px;
+}
+
+.logo{
     width: 75px;
     height: 75px;
     border-radius: 50%;
@@ -119,7 +124,20 @@ a:hover{
     margin-top: 16px;
 }
 
-.size-image{
-    width: 45px;
-    height: 45px;
+.container-section-customer{
+    justify-content: center;
+    padding: 16px;
 }
+
+.container-section-item-customer{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-section-item-customer:nth-child(2){
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
