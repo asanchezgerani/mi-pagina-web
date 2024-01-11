@@ -119,4 +119,7 @@ a:hover{
     margin-top: 16px;
 }
 
-
+.size-image{
+    width: 45px;
+    height: 45px;
+}
