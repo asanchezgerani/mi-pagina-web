@@ -175,3 +175,11 @@ a:hover{
     background: var(--color-header);
 }
 
+.logo-redes-sociales-contacto{
+    background: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 25%;
+    padding: 4px;
+}
+
