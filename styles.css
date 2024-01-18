@@ -173,6 +173,12 @@ a:hover{
 .container-section-contacto{
     color: var(--color-letter);
     background: var(--color-header);
+    padding: 16px;
+}
+
+.container-section-item-contacto{
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo-redes-sociales-contacto{
