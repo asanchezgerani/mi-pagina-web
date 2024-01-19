@@ -10,25 +10,39 @@ html{
 
 h1{
     color: #2E3848;
-    font-size: 25px;
+    font-size: 1.5rem;
     margin-top: auto;
 }
 
 h2{
-    font-size: 20px;
-}
-
-h3{
-    font-size: 18px;
-}
-p{
-    margin-top: 1px;
+    font-size: 1.2rem;
 }
 
 .title{
     color: #878787;
+    margin-bottom: .2em;
+}
+
+.button{
+    cursor: pointer;
     font-size: 18px;
-    margin-bottom: 1%;
+    padding: 10px;
+    color: var(--color-letter);
+    background: var(--color-header);
+    border-radius: 5px;
+    width: 30%;
+}
+
+.button:hover{
+    background: var(--color-button-hover);
+}
+
+h3{
+    font-size: .95rem;
+}
+
+p{
+    margin-top: 1px;
 }
 
 .size-image{
@@ -81,7 +95,7 @@ ul{
 }
 
 a{
-    font-size: 18px;
+    font-size: .9rem;
     color: var(--color-letter);
     text-decoration: none;
 }
@@ -98,20 +112,6 @@ a:hover{
 .container-section{
     padding: 12px;
     align-items: center;
-}
-
-.button{
-    cursor: pointer;
-    font-size: 18px;
-    padding: 10px;
-    color: var(--color-letter);
-    background: var(--color-header);
-    border-radius: 5px;
-    width: 30%;
-}
-
-.button:hover{
-    background: var(--color-button-hover);
 }
 
 .container-section-sobremi{
