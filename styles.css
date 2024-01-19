@@ -10,7 +10,7 @@ html{
 
 h1{
     color: #2E3848;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-top: auto;
 }
 
@@ -25,12 +25,12 @@ h2{
 
 .button{
     cursor: pointer;
-    font-size: 18px;
-    padding: 10px;
+    font-size: .95rem;
+    padding: .4rem;
     color: var(--color-letter);
     background: var(--color-header);
-    border-radius: 5px;
-    width: 30%;
+    border-radius: .4rem;
+    width: 7.5em;
 }
 
 .button:hover{
