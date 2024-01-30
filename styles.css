@@ -135,6 +135,16 @@ a:hover{
     padding: 4px;
 }
 
+.container-form{
+    width: 100%;
+}
+
+form{
+    gap: .4rem;
+    background: var(--color-background);
+    color: var(--color-letter);
+}
+
 /* Estilos Especificos */
 
 /*Estilos Generales */
