@@ -194,6 +194,11 @@ textarea{
     border-radius: 50%;
 }
 
+.container-absolute h1{
+    position: absolute;
+    color: var(--color-letter);
+}
+
 /* Estilos Especificos */
 
 /*Estilos Generales */
