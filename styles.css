@@ -136,13 +136,34 @@ a:hover{
 }
 
 .container-form{
-    width: 100%;
+    gap: 2rem;
+    padding: 1rem;
 }
 
 form{
-    gap: .4rem;
+    padding: 1rem;
+    gap: .5rem;
     background: var(--color-background);
     color: var(--color-letter);
+    border-radius: 0.25rem;
+    box-shadow: 5px 5px 5px 0 #424C5A;
+}
+
+label{
+    margin: .1rem;
+}
+
+input{
+    border: none;
+    background: var(--color-background);
+    color: var(--color-letter);
+    margin: .1rem;
+}
+
+textarea{
+    border: none;
+    border-radius: 0.25rem;
+    resize: none;
 }
 
 /* Estilos Especificos */
