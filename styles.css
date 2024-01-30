@@ -154,10 +154,20 @@ label{
 }
 
 input{
-    border: none;
+    outline: none;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
     background: var(--color-background);
     color: var(--color-letter);
     margin: .1rem;
+    width: 50%;
+    transition: all .5s;
+}
+
+input:hover{
+    border-bottom: 2px solid #10A5A0;
+    transition: all .5s;
 }
 
 textarea{
