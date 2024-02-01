@@ -194,10 +194,35 @@ textarea{
     border-radius: 50%;
 }
 
-.container-absolute h1{
-    position: absolute;
-    color: var(--color-letter);
+.container-image-sobre-mi{
+    position: relative;
 }
+
+.container-h1-sobre-mi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.container-image-sobre-mi img{
+    filter: brightness(60%);
+}
+
+.container-h1-sobre-mi h1{
+    color: var(--color-letter);
+    font-size: 2.1em;
+    font-weight: 700;
+
+}
+
+.img-fit-sobre-mi{
+    object-fit: cover;
+}
+
 
 /* Estilos Especificos */
 
