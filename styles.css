@@ -194,6 +194,10 @@ textarea{
     border-radius: 50%;
 }
 
+.container-gap{
+    gap: 3rem;
+}
+
 .container-image-sobre-mi{
     position: relative;
 }
@@ -223,6 +227,9 @@ textarea{
     object-fit: cover;
 }
 
+.parrafo-sobre-mi{
+    line-height: 1.2rem;
+}
 
 /* Estilos Especificos */
 
