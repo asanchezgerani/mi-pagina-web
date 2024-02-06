@@ -266,11 +266,6 @@ textarea{
     margin-top: 1rem;
 }
 
-.container-section-item-proyecto>p{
-    margin-left: .5rem;
-}
-
-
 .logo-redes-sociales-border{
     background-color: var(--color-letter);
     padding: .1rem;
