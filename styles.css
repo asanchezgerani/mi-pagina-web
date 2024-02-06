@@ -113,7 +113,7 @@ a:hover{
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
 }
 
 .img-fit-contacto{
@@ -372,6 +372,12 @@ footer{
     padding: var(--padding-general);
     background-color: var(--color-background);
     color: var(--color-letter);
+}
+
+.container-image
+{
+    width: 100%;
+    height: 100%;
 }
 
 /*Estilos Generales */
