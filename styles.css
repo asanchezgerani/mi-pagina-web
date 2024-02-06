@@ -12,6 +12,10 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    margin-top: 5rem;
+}
+
 h1{
     color: #2E3848;
     font-size: 1.6rem;
@@ -282,11 +286,14 @@ textarea{
 /*Estilos Generales */
 
 .container-header{
+    position: fixed;
     background: var(--color-background);
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 85px;
+    width: 100%;
+    top: 0;
 }
 
 .container-item-header:nth-child(1){
