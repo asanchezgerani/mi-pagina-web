@@ -289,6 +289,11 @@ textarea{
     height: 85px;
 }
 
+.container-item-header:nth-child(1){
+    margin-top: .2rem;
+}
+
+
 .container-item-header:nth-child(2){
     flex-grow: .5;
 }
