@@ -231,7 +231,7 @@ textarea{
     line-height: 1.2rem;
 }
 
-.container-section-proyecto{
+.container-section-proyecto, .container-section-servicios{
     align-items: center;
     gap: 1rem;
 }
@@ -242,23 +242,24 @@ textarea{
     height: 100%;
 }
 
-.container-section-item-proyecto{
+.container-section-item-proyecto, .container-section-item-servicios{
     align-items: center;
     padding: 1rem;
 
 }
 
-.container-section-item-proyecto:nth-child(2){
+.container-section-item-proyecto:nth-child(2), .container-section-item-servicios:nth-child(2){
     background-color: var(--color-background);
     color: var(--color-letter);
 }
 
-.container-section-item-proyecto:nth-child(3){
+
+.container-section-item-proyecto:nth-child(3), .container-section-item-servicios:nth-child(3){
     background-color: var(--color-background);
     color: var(--color-letter);
 }
 
-.container-section-item-proyecto>h1{
+.container-section-item-proyecto>h1, .container-section-item-servicios>h1{
     margin-top: 2.5rem;
 }
 
@@ -270,6 +271,10 @@ textarea{
     background-color: var(--color-letter);
     padding: .1rem;
     border-radius: 30%;
+}
+
+.container-section-item-servicios{
+    gap: 1rem;
 }
 
 /* Estilos Especificos */
