@@ -220,7 +220,8 @@ textarea{
 }
 
 .container-gap{
-    gap: 3rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .container-image-sobre-mi{
@@ -315,7 +316,7 @@ textarea{
     height: 85px;
     width: 100%;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .container-item-header:nth-child(1){
@@ -394,6 +395,14 @@ footer{
     padding: var(--padding-general);
     background-color: var(--color-background);
     color: var(--color-letter);
+}
+
+#p-margin{
+    margin-top: 1rem;
+}
+
+.container-item-sobremi{
+    align-items: center;
 }
 
 .container-image
