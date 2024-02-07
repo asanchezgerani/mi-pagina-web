@@ -262,6 +262,10 @@ textarea{
     gap: 1rem;
 }
 
+.container-section-servicios{
+    margin-bottom: 1rem;
+}
+
 .img-fit-proyecto{
     object-fit: cover;
     width: 100%;
