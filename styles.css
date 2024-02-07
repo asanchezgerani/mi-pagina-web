@@ -315,6 +315,7 @@ textarea{
     height: 85px;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 .container-item-header:nth-child(1){
