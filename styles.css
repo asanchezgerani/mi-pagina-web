@@ -260,9 +260,6 @@ textarea{
 .container-section-proyecto, .container-section-servicios{
     align-items: center;
     gap: 1rem;
-}
-
-.container-section-servicios{
     margin-bottom: 1rem;
 }
 
