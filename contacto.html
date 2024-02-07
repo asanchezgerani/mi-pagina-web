@@ -42,14 +42,15 @@
                 <div>
                     <form action="#" class="container-flex container-flex-direction">
                         <label for="">Nombre</label>
-                        <input type="text" placeholder="Nombre y apellido">
+                        <input type="text" placeholder="Nombre y apellido" required>
                         <label for="">Email</label>
-                        <input type="email" placeholder="miempresa@miempresa.com">
+                        <input type="email" placeholder="miempresa@miempresa.com"
+                        pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}" required>
                         <label for="">Negocio</label>
-                        <input type="text" placeholder="Nombre de tu negocio o emprendimiento">
+                        <input type="text" placeholder="Nombre de tu negocio o emprendimiento" required>
                         <label for="">Sobre tu negocio</label>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Cuéntame un poco sobre ti, tu negocio o emprendimiento y todas las preguntas, dudas e inquietudes que tengas sin compromiso"></textarea>
-                        <button class="button">Enviar</button>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Cuéntame un poco sobre ti, tu negocio o emprendimiento y todas las preguntas, dudas e inquietudes que tengas sin compromiso" required></textarea>
+                        <button mailto="anthonymsg@hotmail.com" class="button">Enviar</button>
                     </form>
                 </div>
             </div>
