@@ -77,10 +77,6 @@ p{
     line-height: 1.2rem;
 }
 
-span{
-    font-weight: 700;
-}
-
 .size-image{
     width: 45px;
     height: 45px;
@@ -128,6 +124,10 @@ a{
 a:hover{
     transition: all .3s;
     color: var(--color-nav-border);  
+}
+
+#email-link{
+    font-weight: 700;
 }
 
 .img-fit{
