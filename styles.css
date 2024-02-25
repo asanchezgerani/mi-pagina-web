@@ -221,10 +221,12 @@ textarea{
 
 .container-gap{
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 .container-image-sobre-mi{
     position: relative;
+    width: 100%;
 }
 
 .container-h1-sobre-mi{
@@ -251,6 +253,19 @@ textarea{
 .img-fit-sobre-mi{
     object-fit: cover;
 }
+
+.container1{
+   align-items: center;
+}
+
+.container-sobremi-image{
+    width: 70%;
+}
+
+.img-fit-sobremi{
+    width: 100%;
+}
+
 
 .parrafo-sobre-mi{
     line-height: 1.2rem;
@@ -406,8 +421,14 @@ footer{
     align-items: center;
 }
 
+.container-sobremi-texto{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 .container-image
 {
+    align-items: center;
     width: 100%;
     height: 100%;
 }
@@ -429,6 +450,7 @@ footer{
     .card{
         width: 30%;
     }
+
 }
 
 @media screen and (width > 667px) and (width <= 767px) {
