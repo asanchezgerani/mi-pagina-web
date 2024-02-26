@@ -254,13 +254,11 @@ textarea{
     object-fit: cover;
 }
 
-.container1{
-   align-items: center;
-}
 
 .container-sobremi-image{
     width: 70%;
 }
+
 
 .img-fit-sobremi{
     width: 100%;
@@ -421,10 +419,19 @@ footer{
     align-items: center;
 }
 
-.container-sobremi-texto{
+.container1{
+    align-items: center ;
+}
+
+.margin-sobremi{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+.container-sobremi-texto{
+    text-align: center;
+}
+
 
 .container-image
 {
