@@ -276,9 +276,7 @@ textarea{
 }
 
 .img-fit-proyecto{
-    object-fit: cover;
     width: 100%;
-    height: 100%;
 }
 
 .container-section-item-proyecto, .container-section-item-servicios{
@@ -458,6 +456,10 @@ footer{
         width: 30%;
     }
 
+    .container1:nth-child(2)>.container-sobremi-image{
+        order: -1;
+    }
+
 }
 
 @media screen and (width > 667px) and (width <= 767px) {
@@ -479,6 +481,16 @@ footer{
     .container-sobremi-image{
         width: 40%;
     }
+
+    .container1:nth-child(2)>.container-sobremi-image{
+        order: -1;
+    }
+
+    .container-section-item-servicios>div{
+        padding: 0;
+        align-self: start;
+    }
+    
 
 /*     .container-section-item-contacto-texto{
         margin-left: 2rem;
@@ -524,11 +536,15 @@ footer{
         margin-top: .5rem;
     }
 
+    .container1{
+        align-items: normal;
+    }
+
     .container-gap>.container1{
         flex-direction: row;
     }
 
-    .container-sobremi-image{
+    .img-fit-sobremi{
         width: 100%;
     }
 
@@ -536,6 +552,23 @@ footer{
         order: -1;
     }
 
+    .container-centro{
+        flex: 1;
+    }
+
+    .container-section-item-servicios>div{
+        padding: 0;
+        align-self: start;
+    }
+
+    .container-section-item-servicios{
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .container-section-item-servicios:nth-child(3)>div.container-centro:nth-child(2){
+        order: -1
+    }
 
 /*     .container-section-item-contacto-texto{
         margin-left: 4rem;
@@ -594,13 +627,28 @@ footer{
         flex-direction: row;
     }
 
-    .container-sobremi-image{
+    .container1{
+        align-items: normal;
+    }
+
+    .img-fit-sobremi{
         width: 100%;
     }
+
 
     .container1:nth-child(2)>.container-sobremi-image{
         order: -1;
     }
+
+    .container-centro{
+        flex: 1;
+    }
+
+    .container-section-item-servicios>div{
+        padding: 0;
+        align-self: start;
+    }
+
 }
 
 @media screen and (width > 1366px){
@@ -662,11 +710,22 @@ footer{
         flex-direction: row;
     }
 
-    .container-sobremi-image{
+    .container1{
+        align-items: normal;
+    }
+
+    .img-fit-sobremi{
         width: 100%;
     }
-    
+
+
     .container1:nth-child(2)>.container-sobremi-image{
         order: -1;
     }
+
+    .container-centro{
+        flex: 1;
+    }
+
+
 }
