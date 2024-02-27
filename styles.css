@@ -277,7 +277,6 @@ textarea{
 
 .img-fit-proyecto{
     width: 100%;
-    height: 100%;
 }
 
 .container-section-item-proyecto, .container-section-item-servicios{
@@ -303,6 +302,14 @@ textarea{
 
 .container-section-item-proyecto>div{
     margin-top: 1rem;
+}
+
+.container-section-item-proyecto1{
+    align-items: center;
+}
+
+.container-section-item-proyecto1:nth-child(2){
+    gap:1rem;
 }
 
 .logo-redes-sociales-border{
@@ -575,6 +582,30 @@ footer{
         gap:0;
     }
 
+    .container-section-proyecto{
+        gap: 0;
+    }
+
+    .container-section-item-proyecto{
+        flex-direction: row;
+        gap: 1rem;
+        align-self: center;
+    }
+
+
+    .container-section-item-proyecto1{
+        flex: 1;
+        align-items: center;
+    }
+
+    .container-section-item-proyecto1:nth-child(2){
+        gap: 1rem;
+    }
+
+    .container-section-item-proyecto:nth-child(3)>.container-section-item-proyecto1:nth-child(2){
+        order: -1;
+    }
+
     
 
 /*     .container-section-item-contacto-texto{
@@ -669,7 +700,29 @@ footer{
         gap:0;
     }
 
+    .container-section-proyecto{
+        gap: 0;
+    }
 
+    .container-section-item-proyecto{
+        flex-direction: row;
+        gap: 1rem;
+        align-self: center;
+    }
+
+
+    .container-section-item-proyecto1{
+        flex: 1;
+        align-items: center;
+    }
+
+    .container-section-item-proyecto1:nth-child(2){
+        gap: 1rem;
+    }
+
+    .container-section-item-proyecto:nth-child(3)>.container-section-item-proyecto1:nth-child(2){
+        order: -1;
+    }
 }
 
 @media screen and (width > 1366px){
@@ -765,4 +818,28 @@ footer{
     .container-section-servicios{
         gap:0;
     }
+
+    .container-section-proyecto{
+        gap: 0;
+    }
+
+    .container-section-item-proyecto{
+        flex-direction: row;
+        gap: 1rem;
+        align-self: center;
+    }
+
+
+    .container-section-item-proyecto1{
+        flex: 1;
+        align-items: center;
+    }
+
+    .container-section-item-proyecto1:nth-child(2){
+        gap: 1rem;
+    }
+
+    .container-section-item-proyecto:nth-child(3)>.container-section-item-proyecto1:nth-child(2){
+        order: -1;
+    }   
 }
