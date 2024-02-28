@@ -392,7 +392,7 @@ textarea{
 }
 
 .container-section-customer>.container-section-item-customer:nth-child(2)>div{
-    gap: 3rem;
+    gap: 1rem;
     flex-direction: row;
     justify-content: center;
 }
