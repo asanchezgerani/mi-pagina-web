@@ -163,9 +163,14 @@ a:hover{
 .container-form{
     gap: 1rem;
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 
-.container-form>div:nth-child(2){
+.container-form>div{
+    gap: 1rem;
+}
+
+.container-form>div:nth-child(2)>div:nth-child(1){
     align-items: center;
 }
 
@@ -213,9 +218,7 @@ textarea{
 }
 
 .img-fit-form{
-    object-fit: cover;
-    width: 60%;
-    height: 60%;
+    width: 75%;
     border-radius: 50%;
 }
 
