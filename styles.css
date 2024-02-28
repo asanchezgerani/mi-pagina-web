@@ -58,7 +58,6 @@ h2{
     color: var(--color-background);
     border-radius: .4rem;
     text-align: center;
-    width: 20%;
 }
 
 .button-sobremi:hover{
@@ -367,12 +366,19 @@ textarea{
     padding: var(--padding-general);
 }
 
+/* .container-section-sobremi:nth-child(2)>div{
+    gap: .5rem;
+}
+ */
+
+
 .container-section-sobremi:nth-child(2)>.container-section-item-sobremi{
     border-radius: 5px;
     border-color: var(--color-nav-border);
     border-style: solid;
     border-width: 1px;
-    padding: var(--padding-general);
+    padding: 2rem 2rem 2rem .7rem;
+    gap: .7rem;
 }
 
 .container-section-sobremi:nth-child(2)>.container-section-item-sobremi:nth-child(2){
