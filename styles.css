@@ -606,6 +606,11 @@ footer{
         order: -1;
     }
 
+    .img-fit-form{
+        width: 45%;
+        border-radius: 50%;
+    }
+
     
 
 /*     .container-section-item-contacto-texto{
@@ -723,6 +728,12 @@ footer{
     .container-section-item-proyecto:nth-child(3)>.container-section-item-proyecto1:nth-child(2){
         order: -1;
     }
+
+    .img-fit-form{
+        width: 35%;
+        border-radius: 50%;
+    }
+
 }
 
 @media screen and (width > 1366px){
@@ -842,4 +853,10 @@ footer{
     .container-section-item-proyecto:nth-child(3)>.container-section-item-proyecto1:nth-child(2){
         order: -1;
     }   
+
+    .img-fit-form{
+        width: 45%;
+        border-radius: 50%;
+    }
+
 }
