@@ -144,10 +144,9 @@ a:hover{
 }
 
 .card{
+    width: 100%;
     align-items: center;
-    margin: 30px;
     border:  1px solid #dedede;
-    width: 50%;
     box-shadow: 5px 5px 5px 0 #424C5A;
 }
 
@@ -388,23 +387,30 @@ textarea{
 .container-section-customer{
     justify-content: center;
     padding: var(--padding-general);
+    gap: .5rem;
+    
 }
 
+.container-section-customer>.container-section-item-customer:nth-child(2)>div{
+    gap: 3rem;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .container-section-item-customer{
     flex-direction: row;
     justify-content: center;
 }
 
-.container-section-item-customer:nth-child(1){
-    margin-top: 2rem;
-    margin-bottom: -1.5rem;
+.container-section-customer>.container-section-item-customer:nth-child(2){
+    width: 100%;
+
 }
+
 
 .container-section-item-customer:nth-child(2){
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .container-section-contacto{
@@ -467,10 +473,6 @@ footer{
 
     .container-section-contacto>div>div{
         margin-top: .5rem;
-    }
-
-    .card{
-        width: 30%;
     }
 
     .container1:nth-child(2)>.container-sobremi-image{
