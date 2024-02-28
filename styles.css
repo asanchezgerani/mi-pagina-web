@@ -377,7 +377,7 @@ textarea{
     border-color: var(--color-nav-border);
     border-style: solid;
     border-width: 1px;
-    padding: 2rem 2rem 2rem .7rem;
+    padding: 2rem 2rem 2rem 1rem;
     gap: .7rem;
 }
 
