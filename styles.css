@@ -100,6 +100,15 @@ p{
     flex-direction: column;
 }
 
+/* .activo{
+    
+    flex-direction: row;
+    position: absolute;
+    height: 100%;
+} */
+
+
+
 nav{
     width: 100%;
 }
