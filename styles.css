@@ -6,15 +6,16 @@
     --padding-general: 16px;
 }
 
+
 /* Estilos Especificos*/
 
 html{
     font-family: 'Roboto', sans-serif;
 }
 
-body{
+/* body{
     margin-top: 5rem;
-}
+} */
 
 h1{
     color: #2E3848;
@@ -82,6 +83,7 @@ p{
 }
 
 .logo{
+    padding: .5rem;
     width: 75px;
     height: 75px;
     border-radius: 50%;
@@ -100,27 +102,15 @@ p{
     flex-direction: column;
 }
 
-/* .activo{
-    
-    flex-direction: row;
-    position: absolute;
-    height: 100%;
-} */
 
-
-
-nav{
-    width: 100%;
-}
-
-ul{
-    flex-grow: 1;
-    justify-content: space-around;
-    list-style: none;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-}
+    /* ul{
+        flex-grow: 1;
+        justify-content: space-around;
+        list-style: none;
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    } */
 
 a{
     font-size: .9rem;
@@ -335,7 +325,68 @@ textarea{
 
 /*Estilos Generales */
 
-.container-header{
+header{
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+.nav{
+    background: var(--color-background);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.menu_hamburguesa{
+    display: none;
+
+}
+
+.fa-bars{
+    color: var(--color-letter);
+}
+
+.fa-bars , .fa-xmark{
+    color: var(--color-letter);
+}
+
+.cerrar{
+    display: none;
+    
+}
+
+.ul_links{
+    display: none;
+
+}
+
+.menu_hamburguesa:checked ~ label>.abrir{
+    display: none;
+
+}
+
+.menu_hamburguesa:checked ~ label>.cerrar{
+    display: block;
+}
+
+.menu_hamburguesa:checked ~ .ul_links{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* .container-header{
     position: fixed;
     background: var(--color-background);
     flex-direction: row;
@@ -355,13 +406,9 @@ textarea{
 .container-item-header:nth-child(2){
     flex-grow: .5;
 }
-
-/* .container-item-section > button{
-    margin-left: auto;
-    margin-right: auto;
-} */
-
+ */
 .container-section{
+    margin-top: 6rem;
     padding: 12px;
     align-items: center;
 }
@@ -477,7 +524,6 @@ footer{
 
 @media screen and (width <= 667px) {
 
-
     .container-section-contacto>div>div{
         margin-top: .5rem;
     }
@@ -522,6 +568,39 @@ footer{
 }
 
 @media screen and (width >= 768px) and (width <= 1023px) {
+
+    .nav{
+        background: var(--color-background);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    
+    }
+
+    .ul_links{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .menu_hamburguesa{
+        display: none;
+    
+    }
+
+    .cerrar{
+        display: none;
+        
+    }
+
+    .abrir{
+        display: none;
+        
+    }
+
 
     .container-section-sobremi:nth-child(2){
         flex-direction: row;
@@ -657,6 +736,39 @@ footer{
 }
 
 @media screen and (width >= 1024px) and (width <= 1366px){
+
+    .nav{
+        background: var(--color-background);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    
+    }
+
+    .ul_links{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .menu_hamburguesa{
+        display: none;
+    
+    }
+
+    .cerrar{
+        display: none;
+        
+    }
+
+    .abrir{
+        display: none;
+        
+    }
+
     .container-section-sobremi:nth-child(2){
         flex-direction: row;
     }
@@ -801,6 +913,38 @@ footer{
 }
 
 @media screen and (width > 1366px){
+
+    .nav{
+        background: var(--color-background);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    
+    }
+
+    .ul_links{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .menu_hamburguesa{
+        display: none;
+    
+    }
+
+    .cerrar{
+        display: none;
+        
+    }
+
+    .abrir{
+        display: none;
+        
+    }
 
     .container-section-sobremi:nth-child(2){
         flex-direction: row;
