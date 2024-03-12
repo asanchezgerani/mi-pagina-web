@@ -326,9 +326,9 @@ textarea{
 /*Estilos Generales */
 
 header{
-    top: 0;
+    margin-bottom: 5rem;
     width: 100%;
-    position: fixed;
+
 }
 
 ol,ul{
@@ -342,7 +342,10 @@ ol,ul{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
 }
 
 .menu_hamburguesa{
