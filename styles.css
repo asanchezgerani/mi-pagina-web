@@ -278,9 +278,21 @@ textarea{
     width: 100%;
 }
 
-.container-section-item-proyecto, .container-section-item-servicios{
+.container-section-item-proyecto{
     align-items: center;
     padding: 1rem;
+
+}
+
+.container-section-item-servicios:nth-child(2){
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.container-section-item-servicios:nth-child(3){
+    align-items: center;
+    padding: 2rem;
 
 }
 
@@ -521,6 +533,10 @@ footer{
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+.container-centro{
+    gap: 1rem;
 }
 
 /*Estilos Generales */
