@@ -409,10 +409,6 @@ ol,ul{
     gap: .7rem;
 }
 
-.container-section-sobremi:nth-child(2)>.container-section-item-sobremi:nth-child(2){
-    margin-top: 16px;
-}
-
 .container-section-customer{
     justify-content: center;
     padding: var(--padding-general);
@@ -502,6 +498,10 @@ footer{
 
 @media screen and (width <= 667px) {
 
+    .container-section-sobremi{
+        gap: 1rem;
+    }
+
     .container-section-contacto>div>div{
         margin-top: .5rem;
     }
@@ -513,6 +513,10 @@ footer{
 }
 
 @media screen and (width > 667px) and (width <= 767px) {
+
+    .container-section-sobremi{
+        gap: 1rem;
+    }
 
     .container-section-contacto>div>div{
         margin-top: .5rem;
@@ -585,13 +589,10 @@ footer{
         align-items: center;
     }
 
-    .container-section-item-sobremi, .content{
+    .container-section-item-sobremi{
         flex: 1;
     }
 
-    .container-section-sobremi:nth-child(2)>.container-section-item-sobremi:nth-child(2){
-        margin-top: 0;
-    }
 
     .card{
         width: 30%;
@@ -744,15 +745,14 @@ footer{
     }
 
     .container-section, .container-section-item-sobremi{
-        margin-left: 10rem;
-        margin-right: 10rem;
+        margin-left: 8rem;
+        margin-right: 8rem;
     }
 
 
-    .container-section-item-sobremi, .content{
+    .container-section-item-sobremi{
         flex: 1;
         align-items: center;
-        text-align: left;
     }
 
     .container-section-sobremi:nth-child(2)>.container-section-item-sobremi:nth-child(2){
@@ -926,15 +926,15 @@ footer{
     }
 
     .container-section-item-sobremi{
-        margin-left: 10rem;
-        margin-right: 10rem;
+        margin-left: 12rem;
+        margin-right: 12rem;
     }
 
     .card{
         width: 30%;
     }
 
-    .container-section-item-sobremi, .content{
+    .container-section-item-sobremi{
         flex: 1;
         align-items: center;
         text-align: left;
